@@ -13,7 +13,7 @@
   align-items: center;
 }
 
-.green {
+.about-me {
   background-color: lightgray;
   float: right;
   width: 70%;
@@ -22,4 +22,23 @@
 
 body {
   margin: 0px;
+}
+
+.nav-item {
+  width: 100%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.nav-text {
+  padding: 20px;
+}
+
+.no-bottom-border {
+  border-bottom: none;
+}
+
+a {
+  color: black;
+  text-decoration: none;
 }
