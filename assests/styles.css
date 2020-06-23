@@ -1,0 +1,25 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+.nav {
+  background-color: darkslategray;
+  float: left;
+  width: 30%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.green {
+  background-color: lightgray;
+  float: right;
+  width: 70%;
+  height: 100%;
+}
+
+body {
+  margin: 0px;
+}
