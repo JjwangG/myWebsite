@@ -7,13 +7,13 @@
   background-color: darkslategray;
   float: left;
   width: 30%;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.about-me {
+.main-body {
   background-color: lightgray;
   float: right;
   width: 70%;
@@ -41,4 +41,26 @@ body {
 a {
   color: black;
   text-decoration: none;
+}
+
+.nav-icon {
+  width: 75px;
+  height: 75px;
+  padding: 20px 10px 30px;
+}
+
+#avatar {
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+  padding-top: 20px;
+}
+
+h1,
+li,
+h2,
+p,
+h3,
+a {
+  font-family: "Raleway", sans-serif;
 }
