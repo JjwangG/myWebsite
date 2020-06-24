@@ -24,6 +24,7 @@
   const start = url.lastIndexOf("/");
   const end = url.indexOf(".html");
   const currentActive = url.slice(start + 1, end);
+  console.log(currentActive);
   if (currentActive == "") {
     $(`#index`).addClass("active");
   } else {
