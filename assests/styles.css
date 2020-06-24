@@ -64,3 +64,8 @@ h3,
 a {
   font-family: "Raleway", sans-serif;
 }
+
+.active,
+.nav-item:hover {
+  background-color: pink;
+}
